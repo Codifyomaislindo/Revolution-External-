@@ -385,3 +385,112 @@ header .nav-links a {
             text-transform: uppercase;
             letter-spacing: 2px;
         }
+        
+      
+    .footer {
+      background: #111;
+      min-height: 300px;
+      padding: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cursor-trail {
+      width: 10px;
+      height: 10px;
+      background: rgba(255, 0, 0, 0.2);
+      border-radius: 50%;
+      position: absolute;
+      pointer-events: none;
+      transition: transform 0.1s;
+    }
+
+    .youtube-container {
+      background: rgba(255, 0, 0, 0.05);
+      border: 2px solid rgba(255, 0, 0, 0.1);
+      border-radius: 20px;
+      padding: 3rem;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      position: relative;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.1);
+    }
+
+    .youtube-container:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 0 50px rgba(255, 0, 0, 0.2);
+      border-color: rgba(255, 0, 0, 0.3);
+    }
+
+    .youtube-link {
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 1.4rem;
+      font-family: 'Arial', sans-serif;
+      position: relative;
+    }
+
+    .youtube-gif {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(255, 0, 0, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .youtube-container:hover .youtube-gif {
+      transform: rotate(360deg);
+      border-color: rgba(255, 0, 0, 0.8);
+    }
+
+    .glow {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at center, rgba(255, 0, 0, 0.2) 0%, transparent 70%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+    }
+
+    .youtube-container:hover .glow {
+      opacity: 1;
+    }
+
+    .sparkle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: #fff;
+      border-radius: 50%;
+      pointer-events: none;
+      animation: sparkle 1.5s linear infinite;
+    }
+
+    @keyframes sparkle {
+      0% { transform: scale(0) rotate(0deg); opacity: 0; }
+      50% { transform: scale(1) rotate(180deg); opacity: 1; }
+      100% { transform: scale(0) rotate(360deg); opacity: 0; }
+    }
+
+    .particles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .particle {
+      position: absolute;
+      background: rgba(255, 0, 0, 0.5);
+      border-radius: 50%;
+      pointer-events: none;
+    }

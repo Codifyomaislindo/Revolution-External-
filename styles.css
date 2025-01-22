@@ -1,0 +1,387 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000000, #1a0000);
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid #ff0000;
+            box-shadow: 0 0 10px #ff0000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ff0000;
+            text-shadow: 0 0 10px #ff0000;
+            letter-spacing: 2px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s;
+            border: 1px solid transparent;
+        }
+
+        .nav-links a:hover {
+            border: 1px solid #ff0000;
+            box-shadow: 0 0 10px #ff0000;
+            text-shadow: 0 0 5px #ff0000;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 6rem auto 2rem;
+            padding: 0 1rem;
+        }
+
+
+
+  display: flex;
+justify-content: flex-end; 
+align-items: flex-end;    
+height: 100vh;
+margin: 0;
+background-color: #f4f4f4;
+
+.imagens-container {
+  text-align: center;
+}
+
+.imagens {
+                border: 5px solid #ff0000;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ff0000;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.imagens:hover {
+  transform: scale(1.1);
+}
+            max-width: 5%;
+            height: auto;
+        }
+    
+    
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+header .nav-links {
+  float: right;
+  padding-right: 20px;
+}
+
+header .nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* Seção da imagem principal */
+.imagens-container img {
+  width: 100%;
+  max-width: 600px; /* Defina um limite máximo para o tamanho */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+
+/* Estilo para a imagem eukeyrevolution */
+.eukeyrevolution img {
+  width: 100%;
+  max-width: 250px;  /* Limite máximo da imagem */
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Mantém o mesmo estilo para a seção da nova imagem eukeyrevolution */
+.download-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.file-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.file-details {
+  font-size: 14px;
+  color: #555;
+}
+
+.download-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #555;
+}
+
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding: 2rem;
+            border: 2px solid #ff0000;
+            border-radius: 8px;
+            box-shadow: 0 0 20px #ff0000;
+            background: rgba(26, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #ff0000;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 15px #ff0000;
+        }
+
+/* Seção About */
+.about-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 28px;
+}
+
+/* Seção Downloads */
+.downloads-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.download-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.dnsheadtrick img {
+  width: 100%;
+  max-width: 250px;  /* Limite máximo da imagem */
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.download-card .file-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.file-details {
+  font-size: 14px;
+  color: #555;
+}
+
+.download-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #555;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        color: #ff0000;
+        margin-bottom: 1rem;
+        text-shadow: 0 0 15px #ff0000, 0 0 30px #ff0000;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        color: #ccc;
+        text-shadow: 0 0 10px #ff0000;
+        margin-top: 1rem;
+    }
+
+        .about-section {
+            margin: 4rem 0;
+            padding: 2rem;
+            background: rgba(26, 0, 0, 0.5);
+            border: 2px solid #ff0000;
+            border-radius: 8px;
+            box-shadow: 0 0 20px #ff0000;
+        }
+
+        .about-section h2 {
+            font-size: 2.5rem;
+            color: #ff0000;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 10px #ff0000;
+            text-align: center;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-section ul {
+            font-size: 1.1rem;
+            color: #ccc;
+            list-style-type: disc;
+            padding-left: 2rem;
+        }
+
+        .downloads-section {
+            background: rgba(26, 0, 0, 0.3);
+            padding: 2rem;
+            border-radius: 8px;
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 20px #ff0000;
+        }
+
+        .download-card {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid #ff0000;
+            box-shadow: 0 0 15px #ff0000;
+            display: flex;
+            gap: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .download-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px #ff0000;
+        }
+
+        .file-preview {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 0, 0, 0.1);
+            border-radius: 4px;
+            border: 1px solid #ff0000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ff0000;
+        }
+
+        .file-info {
+            flex: 1;
+        }
+
+        .file-info h3 {
+            color: #ff0000;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 5px #ff0000;
+        }
+
+        .file-details {
+            color: #ccc;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .download-btn {
+            background: #ff0000;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .download-btn:hover {
+            background: #cc0000;
+            box-shadow: 0 0 15px #ff0000;
+        }
+
+        .section-title {
+            color: #ff0000;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 10px #ff0000;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
